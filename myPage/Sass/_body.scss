@@ -1,0 +1,110 @@
+body {
+    padding-left: 20%;
+}
+
+#main {
+    @include default;
+    
+
+    .part {
+        @include default;
+        margin-left: 260px;
+
+        padding-bottom: 80px;
+        padding-left: 48px;
+        padding-right: 48px;
+        min-height: 100vh;
+        max-width: 75rem;
+
+        h1 {
+            @include primary-title;
+        }
+
+        #about
+        ,#explain
+        ,#Education
+        ,#skills
+        ,#interests
+        ,#certificates {
+            h1 {
+                @include secondary-title;
+                margin-top: 5%;
+                margin-left: 2%;
+            }
+
+            h2 {
+                @include secondary-title;
+                margin: 5%;
+                #mail:hover {
+                    color: #834025;
+                }
+            }
+
+            p {
+                @include text;
+                margin: 7%;
+            }
+
+            #explainPart {
+                display: flex;
+                justify-content: space-between;
+                h2{
+                    @include experience-second-title;
+                }
+            }
+            li{
+                @include text;
+                margin-left: 5%;
+            }
+            ul{
+                margin-top: 2%;
+            }
+        }
+
+        #icons {
+            display: flex;
+            font-size: 25px;
+            margin-left: 5%;
+        }
+
+        #icons2 {
+            margin-top: 2%;
+            margin-left: 5%;
+            font-size: 45px;
+            color: $text-color;
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+            img{
+                height: 40px;
+                width: 40px;
+            }
+        }
+    
+        #backgroundicon {
+            margin-right: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(56, 55, 55);
+            border-radius: 100%;
+            width: 60px;
+            height: 60px;
+    
+        }
+    
+        #backgroundicon:hover {
+            background-color: orange;
+    
+        }
+
+        
+    }
+}
+
+hr {
+    border-style: none;
+    border: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.304);
+    height: 1px;
+}

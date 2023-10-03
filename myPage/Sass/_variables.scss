@@ -1,0 +1,46 @@
+//Backgrounds Color
+$primary-color:rgb(255, 136, 0);
+$secondary-color:black;
+
+//Text Color
+$primary-title-color:black;
+$secondary-title-color:rgba(0, 0, 0, 0.582);
+$text-color:rgba(0, 0, 0, 0.439);
+
+//Text Font
+$navbar-font:'Young Serif', serif;
+
+//Text Size
+$primary-title-size:64px;
+$secondary-title-size:24px;
+$text-size:18px;
+
+//Default
+@mixin default{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin primary-title{
+    font-size: $primary-title-size;
+    color: $primary-title-color;
+    text-transform: uppercase;
+}
+
+@mixin secondary-title{
+    font-size: $secondary-title-size;
+    color: $secondary-title-color;
+    text-transform: uppercase;
+}
+
+@mixin text{
+    font-size: $text-size;
+    color: $text-color;
+}
+
+@mixin experience-second-title{
+    font-size: 20px;
+    color: $text-color;
+    text-transform: uppercase;
+}

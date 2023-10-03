@@ -1,0 +1,226 @@
+#navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 136, 0);
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: "Young Serif", serif;
+}
+#navbar nav {
+  color: white;
+}
+#navbar nav img {
+  height: 144px;
+  width: 144px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 8px solid rgba(255, 255, 255, 0.39);
+}
+#navbar nav #sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#navbar nav #sections a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.439);
+}
+#navbar nav #sections a:hover {
+  color: black;
+}
+
+body {
+  padding-left: 20%;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#main .part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 260px;
+  padding-bottom: 80px;
+  padding-left: 48px;
+  padding-right: 48px;
+  min-height: 100vh;
+  max-width: 75rem;
+}
+#main .part h1 {
+  font-size: 64px;
+  color: black;
+  text-transform: uppercase;
+}
+#main .part #about h1, #main .part #explain h1,
+#main .part #Education h1,
+#main .part #skills h1,
+#main .part #interests h1,
+#main .part #certificates h1 {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.582);
+  text-transform: uppercase;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+#main .part #about h2, #main .part #explain h2,
+#main .part #Education h2,
+#main .part #skills h2,
+#main .part #interests h2,
+#main .part #certificates h2 {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.582);
+  text-transform: uppercase;
+  margin: 5%;
+}
+#main .part #about h2 #mail:hover, #main .part #explain h2 #mail:hover,
+#main .part #Education h2 #mail:hover,
+#main .part #skills h2 #mail:hover,
+#main .part #interests h2 #mail:hover,
+#main .part #certificates h2 #mail:hover {
+  color: #834025;
+}
+#main .part #about p, #main .part #explain p,
+#main .part #Education p,
+#main .part #skills p,
+#main .part #interests p,
+#main .part #certificates p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.439);
+  margin: 7%;
+}
+#main .part #about #explainPart, #main .part #explain #explainPart,
+#main .part #Education #explainPart,
+#main .part #skills #explainPart,
+#main .part #interests #explainPart,
+#main .part #certificates #explainPart {
+  display: flex;
+  justify-content: space-between;
+}
+#main .part #about #explainPart h2, #main .part #explain #explainPart h2,
+#main .part #Education #explainPart h2,
+#main .part #skills #explainPart h2,
+#main .part #interests #explainPart h2,
+#main .part #certificates #explainPart h2 {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.439);
+  text-transform: uppercase;
+}
+#main .part #about li, #main .part #explain li,
+#main .part #Education li,
+#main .part #skills li,
+#main .part #interests li,
+#main .part #certificates li {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.439);
+  margin-left: 5%;
+}
+#main .part #about ul, #main .part #explain ul,
+#main .part #Education ul,
+#main .part #skills ul,
+#main .part #interests ul,
+#main .part #certificates ul {
+  margin-top: 2%;
+}
+#main .part #icons {
+  display: flex;
+  font-size: 25px;
+  margin-left: 5%;
+}
+#main .part #icons2 {
+  margin-top: 2%;
+  margin-left: 5%;
+  font-size: 45px;
+  color: rgba(0, 0, 0, 0.439); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+#main .part #icons2 img {
+  height: 40px;
+  width: 40px;
+}
+#main .part #backgroundicon {
+  margin-right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(56, 55, 55);
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+}
+#main .part #backgroundicon:hover {
+  background-color: orange;
+}
+
+hr {
+  border-style: none;
+  border: none;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.304);
+  height: 1px;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}/*# sourceMappingURL=main.css.map */
